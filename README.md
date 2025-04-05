@@ -1,3 +1,4 @@
+
 # E-Commerce Microservices Application
 
 This repository contains the code for a scalable, modular e-commerce application built using a microservices architecture. The backend services are fully developed, while the frontend is currently under construction. This project aims to showcase the flexibility and scalability of microservices in building complex e-commerce platforms.
@@ -34,3 +35,37 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/AmaedaQ/ecommerce-microservices.git
    cd ecommerce-microservices
+   ```
+
+2. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the services using Docker Compose:**
+   ```bash
+   docker-compose up -d
+   ```
+
+This will start all the backend services as Docker containers. Ensure that Docker is installed and running on your machine before proceeding.
+
+## Project Roadmap
+
+- **Frontend Integration:** The frontend UI will be built using React.js and Next.js.
+- **Payment Gateway Integration:** Integration of a third-party payment gateway for processing real transactions.
+- **Monitoring & Logging:** Implementation of monitoring and centralized logging solutions, such as Prometheus and ELK Stack, to track the performance and health of the services.
+
+## Future Enhancements
+
+- **Cart Service:** Enhancements for better handling of dynamic product configurations and promotional offers.
+- **Security:** Implementation of additional security features, including rate limiting, data encryption, and advanced authentication mechanisms.
+- **Automated Testing:** Adding comprehensive unit and integration tests to ensure reliability and code quality.
+
+## Links
+
+- **GitHub Repository:** [E-commerce Microservices App](https://github.com/AmaedaQ/ecommerce-microservices-App)
+
+## Contributing
+
+Contributions to the project are welcome. To contribute, please fork the repository, create a new branch, and submit a pull request. Ensure that your contributions align with the existing code style and include tests where applicable.
+
